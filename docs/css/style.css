@@ -143,12 +143,26 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 180vh;
   text-align: center;
 }
 
 .mv-container {
   padding: 0 40px;
+}
+
+.mv-image {
+  width: 600px; /* デスクトップサイズ用 */
+  height: 600px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 40px;
+}
+
+.mv-image img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
 }
 
 .mv-title {
@@ -441,11 +455,16 @@ img {
 
   /*  メインビジュアル */
   .mv {
-    height: 75vh;
+    height: 110vh;
   }
 
   .mv-container {
     padding: 0 20px;
+  }
+
+  .mv-image {
+    width: 240px; /* スマートフォンサイズ用 */
+    height: 240px;
   }
 
   .mv-title {
