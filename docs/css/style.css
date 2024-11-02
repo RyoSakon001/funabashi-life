@@ -29,6 +29,17 @@ img {
 }
 
 /*--------------------------------
+ フォント
+---------------------------------*/
+.bold {
+  font-weight: bold;
+}
+.accent {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*--------------------------------
  レイアウト
 ---------------------------------*/
 .wrapper {
@@ -143,7 +154,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 180vh;
+  height: 120vh;
   text-align: center;
 }
 
@@ -455,7 +466,7 @@ img {
 
   /*  メインビジュアル */
   .mv {
-    height: 110vh;
+    height: 70vh;
   }
 
   .mv-container {
