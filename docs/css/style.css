@@ -8,7 +8,8 @@ body {
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  /* color: #1ca9e3; */
+  color: #38B5FD;
 }
 
 img {
